@@ -29,6 +29,11 @@
   border-radius: 8px;
   border-style: none;
 }
+.main{
+  width: 1440px;
+  margin: 0 auto
+  ;
+}
 
 /* header styles */
 
@@ -76,4 +81,18 @@
     flex-direction: column;
   }
   
+}
+/* features styles */
+.team-features{
+  margin: 130px;
+}
+.features-discription{
+  justify-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.image-list{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
 }
