@@ -91,8 +91,39 @@
   text-align: center;
   padding: 5px;
 }
+.quick-list{
+  font-weight: 500;
+  font-size: 3rem;
+}
+.ours{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.features{
+  font-weight: bold;
+  font-size: 3rem;
+  color: #FF900E;
+}
 .image-list{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 5px;
+  gap: 20px;
+}
+@media screen and (max-width:576px) {
+  
+  .team-features{
+    flex-direction: column;
+  }
+  .image-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* design summary style*/
+.features-summary{
+  margin: 80px 130px;
+}
+.features-design{
+  display: grid;
+  grid-template-rows: repeat(1,1fr);
+  padding: 10px;
 }
